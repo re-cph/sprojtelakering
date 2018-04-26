@@ -1,0 +1,21 @@
+body{
+    background: url('assets/sprojtelakering.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-attachment: fixed;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    color: white;
+}
+#thediv{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px 40px;
+    background-color: rgba(7,80,141,.7);
+
+    width: 400px;
+
+    text-align: center;
+}

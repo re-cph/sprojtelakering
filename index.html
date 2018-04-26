@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Sprøjtelakering - en del af Malerfirmaet Eskildsen A/S</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Malerentrepriser siden 1936">
+    <meta name="author" content="">
+
+    <meta property="og:url" content="http://www.malereskildsen.dk" />
+    <meta property="og:site_name" content="Malerfirmaet Eskildsen A/S" />
+    <meta property="og:title" content="Malerfirmaet Eskildsen A/S" />
+    <meta property="og:description" content="Malerentrepriser siden 1936" />
+    <meta property="og:image" content="http://www.malereskildsen.dk/images/facebook/vintage.jpg" />
+
+    <link rel="canonical" href="http://www.malereskildsen.dk/">
+  
+    <!-- Le styles -->
+    <link href="css.css" rel="stylesheet">
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=Cinzel:400,900,700' rel='stylesheet' type='text/css'> -->
+    
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic,600italic,600&amp;subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,cyrillic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+ <!--    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png"> -->
+    <!-- <link rel="shortcut icon" href="images/favicon.png"> --> <!--favicon image-->
+</head>
+
+  <body>
+    <section>
+      <div id="thediv">
+        <h2>Sprøjtelakering.dk er en del af Malerfirmaet Eskildsen</h2>
+        <p>Du viderestilles om <span id="countdown">5</span> sekunder</p>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 5;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            // Chnage your redirection link here
+            window.location = "https://www.malereskildsen.dk/";
+        } else {
+            // Update remaining seconds
+            document.getElementById("countdown").innerHTML = seconds;
+            // Count down using javascript
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>
+  </body>
+
+</html>
